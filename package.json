@@ -1,0 +1,17 @@
+{
+  "name": "my-app-cicd",
+  "version": "1.0.0",
+  "description": "Sample Node.js app with GitHub Actions CI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
